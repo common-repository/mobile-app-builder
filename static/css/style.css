@@ -1,0 +1,3280 @@
+
+.typeahead,.tt-query,.tt-hint {
+	width:420px;
+	height: 55px;
+	padding:8px 12px;
+	font-size:24px;
+	line-height:30px;
+	border:2px solid #ccc!important;
+	-webkit-border-radius:8px!important;
+	-moz-border-radius:8px!important;
+	border-radius:8p!importantx;
+	outline:none!important;
+	background:url(../img/icon-facebook.png) no-repeat scroll 7px 7px!important;
+	padding-left:61px!important;
+	background-color:#fff;
+}
+.typeahead{
+	min-height: 55px
+}
+[data-icon]:before {
+display:none;
+}
+.appimages {
+	max-width:200px;
+}
+
+.placeholder {
+	height:40px;
+	width:20px;
+	display:inline-block;
+	margin:4px;
+}
+
+#mabhome input {
+	width:100%;
+}
+
+.imgFacebook {
+	text-align:left;
+	width:50px;
+	height:50px;
+	float:left;
+	vertical-align:text-top;
+}
+
+.modsupp {
+	position:relative;
+	padding:15px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.mabtextedit {
+	width:100%;
+}
+
+#mabpages label {
+	width:100%;
+	text-align:left;
+}
+
+#mabpages {
+	padding-bottom:50px;
+}
+
+.btnSave {
+	top:15px;
+}
+
+.modsuppbutton {
+	border-radius:3px;
+	cursor:pointer;
+	cursor:hand;
+	background-color:#FF2D55;
+	border-color:#FF2D55;
+	color:#fff;
+	padding:10px;
+}
+
+.mabparent {
+	position:relative;
+	margin-top:1.25rem;
+	overflow:hidden;
+	width:100%;
+	height:7.125rem;
+	left:.0625rem;
+}
+
+.mablist {
+	background-color:#FFF;
+	white-space:nowrap;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	border:1px;
+	border-style:solid;
+	border-width:0;
+/* text-align: left; */
+	border-color:currentcolor;
+	width:95%;
+	max-height:100px;
+}
+
+.mablisttheme {
+	white-space:nowrap;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	border:0;
+	border-style:solid;
+	border-width:0;
+/* text-align: left; */
+	border-color:currentcolor;
+	width:100%;
+}
+
+.mabzone {
+	position:relative;
+	background:#fdfdfd;
+	box-shadow:0 .0625rem .125rem rgba(0,0,0,.1);
+	text-align:center;
+	padding:1.25rem 1.25rem 0;
+	border-radius:.25rem;
+	margin-bottom:1.25rem;
+	padding-bottom:10px;
+}
+
+.mabitem {
+	font-size:.75rem;
+	font-family:MuseoSans-500;
+	background-color:#686868;
+	height:87px;
+	width:100px;
+	margin:4px;
+	cursor:pointer;
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	font-size:small;
+	padding-top:13px;
+	padding-bottom:0;
+	border-radius:.1875rem;
+}
+
+.appicons {
+	font-size:.75rem;
+	background-color:#a09e9e;
+	height:60px;
+	width:60px;
+	margin:4px;
+	cursor:pointer;
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	font-size:small;
+	padding-top:13px;
+	padding-bottom:0;
+	border-radius:.1875rem;
+	box-shadow:0 .0625rem .125rem rgba(0,0,0,.1);
+	text-align:center;
+}
+
+.mabitemImage {
+	position:relative;
+	border:.0625rem dashed #c2c2c2;
+	background:#f1f1f1;
+	box-shadow:.0625rem .0625rem .0625rem rgba(0,0,0,.1);
+	width:60px;
+	height:60px;
+	margin-right:2.5rem;
+	cursor:pointer;
+	padding-top:12px;
+}
+
+#previewText {
+	width:100%;
+}
+
+.mabitemHome {
+	font-size:.75rem;
+	background-color:#34AADC;
+	height:87px;
+	width:100px;
+	margin:4px;
+	cursor:pointer;
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	font-size:small;
+	padding-top:13px;
+	padding-bottom:0;
+	border-radius:.1875rem;
+}
+
+/*
+	End
+	
+*/
+.mabselected {
+	border:6px solid green;
+	position:relative;
+}
+
+.mabselectedswatch {
+	border:6px solid green;
+	position:relative;
+}
+
+/*
+	
+	Pages
+	
+*/
+.ullipages {
+	list-style:none;
+}
+
+.ullipagesli {
+	list-style:none;
+	float:left;
+}
+
+.ullipagesli {
+	width:100px;
+	padding:5px;
+}
+
+/*  PLUGINS - POPUP */
+.item2 {
+	background-color:#3D3F75;
+	height:100px;
+	width:100px;
+	margin:4px;
+	cursor:pointer;
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	font-size:small;
+	padding-top:13px;
+	padding-bottom:0;
+	text-align:center;
+}
+
+.outerItem {
+	color:#fff;
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	font-size:small;
+	padding-top:13px;
+	padding-bottom:0;
+}
+
+/* TABS */
+.mabtabs li {
+	list-style:none;
+	display:inline;
+}
+
+.mabtabs a {
+	padding:5px 10px;
+	display:inline-block;
+	background:#666;
+	color:#fff;
+	text-decoration:none;
+}
+
+.mabtabs a.active {
+	background:#fff;
+	color:#000;
+}
+
+/* TABS */
+/*Swatches*/
+.list {
+	white-space:nowrap;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	border:0;
+	border-style:solid;
+	border-width:0;
+/* text-align: left; */
+	border-color:currentcolor;
+	width:100%;
+}
+
+ul.swatches li {
+	display:inline;
+}
+
+ul.swatches input[type="radio"] {
+	display:none;
+}
+
+ul.swatches label {
+	display:inline-block;
+	border-radius:4px;
+	box-shadow:0 1px 3px rgba(0,0,0,.3);
+	cursor:pointer;
+	width:40px;
+	height:40px;
+	margin:0 5px;
+	margin-top:10px;
+}
+
+ul.swatches label.selected {
+	box-shadow:0 1px 0 #fff,inset 0 1px 3px rgba(0,0,0,.4);
+}
+
+label.slate {
+	background-color:#222;
+}
+
+label.aloe {
+	background-color:#aad315;
+}
+
+label.water {
+	background-color:#0093ea;
+}
+
+label.candy {
+	background-color:#ff6b5f;
+}
+
+label.melon {
+	background-color:#f8cb4a;
+}
+
+label.mint {
+	background-color:#9ddecc;
+}
+
+label.royal {
+	background-color:#c22f1b;
+}
+
+label.sand {
+	background-color:#cab092;
+}
+
+label.BluePink {
+	background:-webkit-linear-gradient(#ed1e79,#29abe2);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#ed1e79,#29abe2);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#ed1e79,#29abe2);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#ed1e79,#29abe2);
+/* Standard syntax */
+}
+
+label.seaSand {
+	background:-webkit-linear-gradient(#fc3,#29abe2);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#fc3,#29abe2);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#fc3,#29abe2);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#fc3,#29abe2);
+/* Standard syntax */
+}
+
+label.lavender {
+	background:-webkit-linear-gradient(#c67cff,#38184f);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#c67cff,#38184f);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#c67cff,#38184f);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#c67cff,#38184f);
+/* Standard syntax */
+}
+
+label.lightMint {
+	background:-webkit-linear-gradient(#83ffbd,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#83ffbd,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#83ffbd,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#83ffbd,#fff);
+/* Standard syntax */
+}
+
+label.blackRed {
+	background:-webkit-linear-gradient(#d10000,#000);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#d10000,#000);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#d10000,#000);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#d10000,#000);
+/* Standard syntax */
+}
+
+label.blueWhite {
+	background:-webkit-linear-gradient(#a8dcff,#00455c);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#a8dcff,#00455c);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#a8dcff,#00455c);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#a8dcff,#00455c);
+/* Standard syntax */
+}
+
+label.limeGreen {
+	background:-webkit-linear-gradient(#006837,#deffb3);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#006837,#deffb3);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#006837,#deffb3);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#006837,#deffb3);
+/* Standard syntax */
+}
+
+label.woody {
+	background:-webkit-linear-gradient(#693300,#fbc896);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#693300,#fbc896);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#693300,#fbc896);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#693300,#fbc896);
+/* Standard syntax */
+}
+
+label.orangeHeader {
+	background:-webkit-linear-gradient(#ff9c40,#fdffc9);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#ff9c40,#fdffc9);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#ff9c40,#fdffc9);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#ff9c40,#fdffc9);
+/* Standard syntax */
+}
+
+label.lightPink {
+	background:-webkit-linear-gradient(#ffb0cd,#FFcaeb);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#ffb0cd,#FFcaeb);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#ffb0cd,#FFcaeb);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#ffb0cd,#FFcaeb);
+/* Standard syntax */
+}
+
+label.snowWhite {
+	background:-webkit-linear-gradient(#fff,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#fff,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#fff,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#fff,#fff);
+/* Standard syntax */
+}
+
+label.cola {
+	background:-webkit-linear-gradient(#fa0000,#fffbfb);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#fa0000,#fffbfb);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#fa0000,#fffbfb);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#fa0000,#fffbfb);
+/* Standard syntax */
+}
+
+label.blackBlue {
+	background:-webkit-linear-gradient(#480000,#005c7a);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#480000,#005c7a);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#480000,#005c7a);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#480000,#005c7a);
+/* Standard syntax */
+}
+
+label.greyClass {
+	background:-webkit-linear-gradient(#858585,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#858585,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#858585,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#858585,#fff);
+/* Standard syntax */
+}
+
+label.blackGold {
+	background:-webkit-linear-gradient(#000,#FFd51c);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#000,#FFd51c);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#000,#FFd51c);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#000,#FFd51c);
+/* Standard syntax */
+}
+
+label.fruity {
+	background:-webkit-linear-gradient(#6a2768,#FFd51c);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#6a2768,#FFd51c);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#6a2768,#FFd51c);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#6a2768,#FFd51c);
+/* Standard syntax */
+}
+
+label.wierd {
+	background:-webkit-linear-gradient(#298eba,#a31c4e);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#298eba,#a31c4e);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#298eba,#a31c4e);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#298eba,#a31c4e);
+/* Standard syntax */
+}
+
+label.primaryColors {
+	background:-webkit-linear-gradient(#0071bc,#fcee21,#ed1c24);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#0071bc,#fcee21,#ed1c24);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#0071bc,#fcee21,#ed1c24);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#0071bc,#fcee21,#ed1c24);
+/* Standard syntax */
+}
+
+label.army {
+	background:-webkit-linear-gradient(#00a99d,#0071bc,#d9e021);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#00a99d,#0071bc,#d9e021);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#00a99d,#0071bc,#d9e021);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#00a99d,#0071bc,#d9e021);
+/* Standard syntax */
+}
+
+label.greenWhite {
+	background:-webkit-linear-gradient(#006837,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#006837,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#006837,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#006837,#fff);
+/* Standard syntax */
+}
+
+label.blueWhiter {
+	background:-webkit-linear-gradient(#072ee4,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#072ee4,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#072ee4,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#072ee4,#fff);
+/* Standard syntax */
+}
+
+label.yellowWhite {
+	background:-webkit-linear-gradient(#e4d707,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#e4d707,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#e4d707,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#e4d707,#fff);
+/* Standard syntax */
+}
+
+label.blackWhite {
+	background:-webkit-linear-gradient(#000,#fff);
+/* For Safari 5.1 to 6.0 */
+	background:-o-linear-gradient(#000,#fff);
+/* For Opera 11.1 to 12.0 */
+	background:-moz-linear-gradient(#000,#fff);
+/* For Firefox 3.6 to 15 */
+	background:linear-gradient(#000,#fff);
+/* Standard syntax */
+}
+
+#trashAppBuilder {
+	color:#cebba9;
+}
+
+/*COLS*/
+.mableft {
+	float:left;
+	width:60%;
+	padding:5px;
+}
+
+.mabright {
+	float:right;
+	width:280px;
+	padding:5px;
+}
+
+.mableftmini {
+	float:left;
+	width:30%;
+	padding:5px;
+}
+
+.mabrightmini {
+	float:right;
+	width:60%;
+	padding:5px;
+}
+
+.mabrighttrash {
+	float:right;
+	width:10%;
+	padding:5px;
+}
+
+.mabgroup {
+	padding:15px;
+	max-width:1200px;
+	margin:auto;
+}
+
+.mabgroup:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/*COLS*/
+.ui-autocomplete {
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:default;
+	max-height:300px;
+	overflow:scroll;
+	border:1px solid #ccc;
+	background:#fff;
+	color:#000;
+}
+
+.ui-menu .ui-menu-item {
+	position:relative;
+	text-align:left;
+	margin:0;
+	padding:3px 1em 3px .4em;
+	cursor:pointer;
+	min-height:0;
+	list-style-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+	vertical-align:text-top;
+}
+
+#mab-new-post {
+	padding:20px 0;
+}
+
+#mab-new-post .wp-editor-container {
+	border:1px solid #DBDBDB;
+}
+
+#mab-new-post #mab-post-title,#mab-new-post #mab-tags,#mab-new-post #mab-category,#mab-new-post #mab-about {
+	clear:both;
+	margin:20px 0;
+	padding:10px;
+	background:#fff;
+	border:1px solid #DDD;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1) inset;
+}
+
+#mab-new-post label {
+	font-size:15px;
+	font-weight:700;
+	display:table;
+	cursor:pointer;
+}
+
+#mab-new-post #mab-post-title,#mab-new-post #mab-tags,#mab-new-post #mab-category {
+	box-sizing:border-box;
+	width:400px;
+}
+
+#mab-new-post #mab-about {
+	width:96.5%;
+}
+
+#mab-new-post #mab-post-title {
+	font-size:30px;
+}
+
+#mab-new-post .wp-editor-area {
+	background:#FFF;
+}
+
+#mab-new-post #mab-featured-image {
+	background:none repeat scroll 0 0 #ececec;
+	border:1px solid #e1e1e1;
+	display:table;
+	margin:20px 0;
+	padding:20px;
+	text-align:center;
+}
+
+#mab-new-post #mab-featured-image-splash {
+	background:none repeat scroll 0 0 #ececec;
+	border:1px solid #e1e1e1;
+	display:table;
+	margin:20px 0;
+	padding:20px;
+	text-align:center;
+}
+
+#mab-new-post #mab-featured-image-background {
+	background:none repeat scroll 0 0 #ececec;
+	border:1px solid #e1e1e1;
+	display:table;
+	margin:20px 0;
+	padding:20px;
+	text-align:center;
+}
+
+#wp-mab-post-content-wrap {
+	margin-bottom:20px;
+}
+
+img.mab-loading-img {
+	display:none;
+	box-shadow:none;
+	margin-left:10px;
+}
+
+button#mab-submit-post,button#mab-submit-post:active,button#mab-submit-post:hover {
+	border-color:#306EB5;
+	border-style:solid;
+	border-width:1px 1px 3px;
+	box-shadow:none;
+	color:#FFF;
+	font-weight:700;
+	padding:10px 20px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+button#mab-submit-post {
+	background:#4785CC;
+}
+
+button#mab-submit-post:hover {
+	background:#5391D8;
+}
+
+button#mab-submit-post:active {
+	padding-top:12px;
+	padding-bottom:8px;
+	background:#306EB5;
+}
+
+button#mab-submit-post.passive-btn,button#mab-submit-post.passive-btn:active,button#mab-submit-post.passive-btn:hover {
+	background:#e7e7e7;
+	border:1px solid #d7d7d7;
+	cursor:default;
+	color:#a7a7a7;
+	border-bottom:3px solid #d7d7d7;
+	font-weight:700;
+}
+
+#no-js,#mab-message {
+	padding:20px;
+	margin-bottom:20px;
+	clear:both;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#mab-message {
+	display:none;
+}
+
+#mab-message.warning {
+	background:#FFEBE8;
+	border:1px solid #FFA1A1;
+}
+
+#mab-message.success {
+	background:none repeat scroll 0 0 #DBF9DB;
+	border:1px solid #25A825;
+}
+
+.mab-author-bio {
+	width:100%;
+	clear:both;
+	padding:20px 0;
+}
+
+#mab-posts > ul {
+	list-style:none outside none;
+	margin:0;
+}
+
+#mab-posts li {
+	display:table;
+	list-style:none outside none;
+	margin:0 5px;
+	padding:0;
+	float:left;
+}
+
+#mab-posts li a {
+	background:#F7F7F7;
+	border-color:#DCDCDC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow:0 0 10px #EEE inset;
+	color:#858585;
+	display:table;
+	padding:8px 20px;
+	text-decoration:none;
+	margin-bottom:-1px;
+}
+
+#mab-posts li a.active {
+	background:#FFF;
+	border-bottom:1px solid #FFF;
+	box-shadow:none;
+}
+
+#mab-posts .mab-fixed-td {
+	width:15%;
+	text-align:center;
+}
+
+#mab-post-table-container {
+	border-top:1px solid #DCDCDC;
+	clear:both;
+	padding-top:20px;
+}
+
+#mab-posts .mab-nav {
+	clear:both;
+	display:block;
+}
+
+#mab-posts .mab-nav-link.mab-nav-link-left {
+	float:left;
+}
+
+#mab-posts .mab-nav-link.mab-nav-link-right {
+	float:right;
+}
+
+.marvel-device {
+	display:inline-block;
+	position:relative;
+	box-sizing:content-box!important;
+}
+
+.marvel-device .screen {
+	width:100%;
+	position:relative;
+	height:100%;
+	color:#fff;
+	z-index:2;
+	text-align:center;
+	display:block;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	-webkit-box-shadow:0 0 0 3px #111;
+	box-shadow:0 0 0 3px #111;
+}
+
+.marvel-device .top-bar,.marvel-device .bottom-bar {
+	height:3px;
+	background:#000;
+	width:100%;
+	display:block;
+}
+
+.marvel-device .middle-bar {
+	width:3px;
+	height:4px;
+	top:0;
+	left:90px;
+	background:#000;
+	position:absolute;
+}
+
+.marvel-device.iphone6 {
+	width:280px;
+	height:480px;
+	padding:105px 24px;
+	background:#d9dbdc;
+	-webkit-border-radius:56px;
+	border-radius:56px;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.2);
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.marvel-device.iphone6:before {
+	width:calc(100% - 12px);
+	height:calc(100% - 12px);
+	position:absolute;
+	top:6px;
+	content:'';
+	left:6px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	background:#f8f8f8;
+	z-index:1;
+}
+
+.marvel-device.iphone6:after {
+	width:calc(100% - 16px);
+	height:calc(100% - 16px);
+	position:absolute;
+	top:8px;
+	content:'';
+	left:8px;
+	-webkit-border-radius:48px;
+	border-radius:48px;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #fff;
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #fff;
+	z-index:0;
+}
+
+.marvel-device.iphone6 .home {
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:68px;
+	height:68px;
+	position:absolute;
+	left:50%;
+	margin-left:-34px;
+	bottom:22px;
+	z-index:3;
+	background:#303233;
+	background:-moz-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#303233),color-stop(50%,#b5b7b9),color-stop(69%,#f0f2f2),color-stop(100%,#303233));
+	background:-webkit-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-o-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-ms-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:linear-gradient(135deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#303233',endColorstr='#303233',GradientType=1);
+}
+
+.marvel-device.iphone6 .home:before {
+	background:#f8f8f8;
+	position:absolute;
+	content:'';
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	top:4px;
+	left:4px;
+}
+
+.marvel-device.iphone6 .top-bar {
+	height:14px;
+	background:#bfbfc0;
+	position:absolute;
+	top:68px;
+	left:0;
+}
+
+.marvel-device.iphone6 .bottom-bar {
+	height:14px;
+	background:#bfbfc0;
+	position:absolute;
+	bottom:68px;
+	left:0;
+}
+
+.marvel-device.iphone6 .sleep {
+	position:absolute;
+	top:190px;
+	right:-4px;
+	width:4px;
+	height:66px;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+	background:#d9dbdc;
+}
+
+.marvel-device.iphone6 .volume {
+	position:absolute;
+	left:-4px;
+	top:188px;
+	z-index:0;
+	height:66px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:#d9dbdc;
+}
+
+.marvel-device.iphone6 .volume:before {
+	position:absolute;
+	left:2px;
+	top:-78px;
+	height:40px;
+	width:2px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone6 .volume:after {
+	position:absolute;
+	left:0;
+	top:82px;
+	height:66px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone6 .camera {
+	background:#3c3d3d;
+	width:12px;
+	height:12px;
+	position:absolute;
+	top:24px;
+	left:50%;
+	margin-left:-6px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	z-index:3;
+}
+
+.marvel-device.iphone6 .sensor {
+	background:#3c3d3d;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:49px;
+	left:134px;
+	z-index:3;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.iphone6 .speaker {
+	background:#292728;
+	width:70px;
+	height:6px;
+	position:absolute;
+	top:54px;
+	left:50%;
+	margin-left:-35px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	z-index:3;
+}
+
+.marvel-device.iphone6.gold {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone6.gold .top-bar,.marvel-device.iphone6.gold .bottom-bar {
+	background:#fff;
+}
+
+.marvel-device.iphone6.gold .sleep,.marvel-device.iphone6.gold .volume {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone6.gold .home {
+	background:#cebba9;
+	background:-moz-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#cebba9),color-stop(50%,#f9e7d3),color-stop(100%,#cebba9));
+	background:-webkit-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-o-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-ms-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:linear-gradient(135deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cebba9',endColorstr='#cebba9',GradientType=1);
+}
+
+.marvel-device.iphone6.black {
+	background:#464646;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.7);
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.7);
+}
+
+.marvel-device.iphone6.black:before {
+	background:#080808;
+}
+
+.marvel-device.iphone6.black:after {
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #212121;
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #212121;
+}
+
+.marvel-device.iphone6.black .top-bar,.marvel-device.iphone6.black .bottom-bar {
+	background:#212121;
+}
+
+.marvel-device.iphone6.black .volume,.marvel-device.iphone6.black .sleep {
+	background:#464646;
+}
+
+.marvel-device.iphone6.black .camera {
+	background:#080808;
+}
+
+.marvel-device.iphone6.black .home {
+	background:#080808;
+	background:-moz-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#080808),color-stop(50%,#464646),color-stop(100%,#080808));
+	background:-webkit-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-o-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-ms-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:linear-gradient(135deg,#080808 0%,#464646 50%,#080808 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#080808',endColorstr='#080808',GradientType=1);
+}
+
+.marvel-device.iphone6.black .home:before {
+	background:#080808;
+}
+
+.marvel-device.iphone6.landscape {
+	padding:24px 105px;
+	height:375px;
+	width:667px;
+}
+
+.marvel-device.iphone6.landscape .sleep {
+	top:100%;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+	right:190px;
+	height:4px;
+	width:66px;
+}
+
+.marvel-device.iphone6.landscape .volume {
+	width:66px;
+	height:4px;
+	top:-4px;
+	left:calc(100% - 188px - 66px);
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6.landscape .volume:before {
+	width:40px;
+	height:2px;
+	top:2px;
+	right:-78px;
+	left:auto;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6.landscape .volume:after {
+	left:-82px;
+	width:66px;
+	height:4px;
+	top:0;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6.landscape .top-bar {
+	width:14px;
+	height:100%;
+	left:calc(100% - 68px - 14px);
+	top:0;
+}
+
+.marvel-device.iphone6.landscape .bottom-bar {
+	width:14px;
+	height:100%;
+	left:68px;
+	top:0;
+}
+
+.marvel-device.iphone6.landscape .home {
+	top:50%;
+	margin-top:-34px;
+	margin-left:0;
+	left:22px;
+}
+
+.marvel-device.iphone6.landscape .sensor {
+	top:134px;
+	left:calc(100% - 49px - 16px);
+}
+
+.marvel-device.iphone6.landscape .speaker {
+	height:70px;
+	width:6px;
+	left:calc(100% - 54px - 6px);
+	top:50%;
+	margin-left:0;
+	margin-top:-35px;
+}
+
+.marvel-device.iphone6.landscape .camera {
+	left:calc(100% - 32px);
+	top:50%;
+	margin-left:0;
+	margin-top:-5px;
+}
+
+.marvel-device.iphone6plus {
+	width:414px;
+	height:736px;
+	padding:112px 26px;
+	background:#d9dbdc;
+	-webkit-border-radius:56px;
+	border-radius:56px;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.2);
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.marvel-device.iphone6plus:before {
+	width:calc(100% - 12px);
+	height:calc(100% - 12px);
+	position:absolute;
+	top:6px;
+	content:'';
+	left:6px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	background:#f8f8f8;
+	z-index:1;
+}
+
+.marvel-device.iphone6plus:after {
+	width:calc(100% - 16px);
+	height:calc(100% - 16px);
+	position:absolute;
+	top:8px;
+	content:'';
+	left:8px;
+	-webkit-border-radius:48px;
+	border-radius:48px;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #fff;
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #fff;
+	z-index:2;
+}
+
+.marvel-device.iphone6plus .home {
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:68px;
+	height:68px;
+	position:absolute;
+	left:50%;
+	margin-left:-34px;
+	bottom:24px;
+	z-index:3;
+	background:#303233;
+	background:-moz-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#303233),color-stop(50%,#b5b7b9),color-stop(69%,#f0f2f2),color-stop(100%,#303233));
+	background:-webkit-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-o-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:-ms-linear-gradient(-45deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	background:linear-gradient(135deg,#303233 0%,#b5b7b9 50%,#f0f2f2 69%,#303233 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#303233',endColorstr='#303233',GradientType=1);
+}
+
+.marvel-device.iphone6plus .home:before {
+	background:#f8f8f8;
+	position:absolute;
+	content:'';
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	top:4px;
+	left:4px;
+}
+
+.marvel-device.iphone6plus .top-bar {
+	height:14px;
+	background:#bfbfc0;
+	position:absolute;
+	top:68px;
+	left:0;
+}
+
+.marvel-device.iphone6plus .bottom-bar {
+	height:14px;
+	background:#bfbfc0;
+	position:absolute;
+	bottom:68px;
+	left:0;
+}
+
+.marvel-device.iphone6plus .sleep {
+	position:absolute;
+	top:190px;
+	right:-4px;
+	width:4px;
+	height:66px;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+	background:#d9dbdc;
+}
+
+.marvel-device.iphone6plus .volume {
+	position:absolute;
+	left:-4px;
+	top:188px;
+	z-index:0;
+	height:66px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:#d9dbdc;
+}
+
+.marvel-device.iphone6plus .volume:before {
+	position:absolute;
+	left:2px;
+	top:-78px;
+	height:40px;
+	width:2px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone6plus .volume:after {
+	position:absolute;
+	left:0;
+	top:82px;
+	height:66px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone6plus .camera {
+	background:#3c3d3d;
+	width:12px;
+	height:12px;
+	position:absolute;
+	top:29px;
+	left:50%;
+	margin-left:-6px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	z-index:3;
+}
+
+.marvel-device.iphone6plus .sensor {
+	background:#3c3d3d;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:54px;
+	left:154px;
+	z-index:3;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.iphone6plus .speaker {
+	background:#292728;
+	width:70px;
+	height:6px;
+	position:absolute;
+	top:59px;
+	left:50%;
+	margin-left:-35px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	z-index:3;
+}
+
+.marvel-device.iphone6plus.gold {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone6plus.gold .top-bar,.marvel-device.iphone6plus.gold .bottom-bar {
+	background:#fff;
+}
+
+.marvel-device.iphone6plus.gold .sleep,.marvel-device.iphone6plus.gold .volume {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone6plus.gold .home {
+	background:#cebba9;
+	background:-moz-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#cebba9),color-stop(50%,#f9e7d3),color-stop(100%,#cebba9));
+	background:-webkit-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-o-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:-ms-linear-gradient(-45deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	background:linear-gradient(135deg,#cebba9 0%,#f9e7d3 50%,#cebba9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cebba9',endColorstr='#cebba9',GradientType=1);
+}
+
+.marvel-device.iphone6plus.black {
+	background:#464646;
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.7);
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.7);
+}
+
+.marvel-device.iphone6plus.black:before {
+	background:#080808;
+}
+
+.marvel-device.iphone6plus.black:after {
+	-webkit-box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #212121;
+	box-shadow:inset 0 0 3px 0 rgba(0,0,0,0.1),inset 0 0 6px 3px #212121;
+}
+
+.marvel-device.iphone6plus.black .top-bar,.marvel-device.iphone6plus.black .bottom-bar {
+	background:#212121;
+}
+
+.marvel-device.iphone6plus.black .volume,.marvel-device.iphone6plus.black .sleep {
+	background:#464646;
+}
+
+.marvel-device.iphone6plus.black .camera {
+	background:#080808;
+}
+
+.marvel-device.iphone6plus.black .home {
+	background:#080808;
+	background:-moz-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#080808),color-stop(50%,#464646),color-stop(100%,#080808));
+	background:-webkit-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-o-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:-ms-linear-gradient(-45deg,#080808 0%,#464646 50%,#080808 100%);
+	background:linear-gradient(135deg,#080808 0%,#464646 50%,#080808 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#080808',endColorstr='#080808',GradientType=1);
+}
+
+.marvel-device.iphone6plus.black .home:before {
+	background:#080808;
+}
+
+.marvel-device.iphone6plus.landscape {
+	padding:26px 112px;
+	height:414px;
+	width:736px;
+}
+
+.marvel-device.iphone6plus.landscape .sleep {
+	top:100%;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+	right:190px;
+	height:4px;
+	width:66px;
+}
+
+.marvel-device.iphone6plus.landscape .volume {
+	width:66px;
+	height:4px;
+	top:-4px;
+	left:calc(100% - 188px - 66px);
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6plus.landscape .volume:before {
+	width:40px;
+	height:2px;
+	top:2px;
+	right:-78px;
+	left:auto;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6plus.landscape .volume:after {
+	left:-82px;
+	width:66px;
+	height:4px;
+	top:0;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone6plus.landscape .top-bar {
+	width:14px;
+	height:100%;
+	left:calc(100% - 68px - 14px);
+	top:0;
+}
+
+.marvel-device.iphone6plus.landscape .bottom-bar {
+	width:14px;
+	height:100%;
+	left:68px;
+	top:0;
+}
+
+.marvel-device.iphone6plus.landscape .home {
+	top:50%;
+	margin-top:-34px;
+	margin-left:0;
+	left:24px;
+}
+
+.marvel-device.iphone6plus.landscape .sensor {
+	top:154px;
+	left:calc(100% - 54px - 16px);
+}
+
+.marvel-device.iphone6plus.landscape .speaker {
+	height:70px;
+	width:6px;
+	left:calc(100% - 59px - 6px);
+	top:50%;
+	margin-left:0;
+	margin-top:-35px;
+}
+
+.marvel-device.iphone6plus.landscape .camera {
+	left:calc(100% - 29px);
+	top:50%;
+	margin-left:0;
+	margin-top:-5px;
+}
+
+.marvel-device.iphone5s,.marvel-device.iphone5c {
+	padding:105px 22px;
+	background:#2c2b2c;
+	width:320px;
+	height:568px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
+
+.marvel-device.iphone5s:before,.marvel-device.iphone5c:before {
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	position:absolute;
+	top:4px;
+	content:'';
+	left:4px;
+	-webkit-border-radius:46px;
+	border-radius:46px;
+	background:#1e1e1e;
+	z-index:1;
+}
+
+.marvel-device.iphone5s .sleep,.marvel-device.iphone5c .sleep {
+	position:absolute;
+	top:-4px;
+	right:60px;
+	width:60px;
+	height:4px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+	background:#282727;
+}
+
+.marvel-device.iphone5s .volume,.marvel-device.iphone5c .volume {
+	position:absolute;
+	left:-4px;
+	top:180px;
+	z-index:0;
+	height:27px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:#282727;
+}
+
+.marvel-device.iphone5s .volume:before,.marvel-device.iphone5c .volume:before {
+	position:absolute;
+	left:0;
+	top:-75px;
+	height:35px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone5s .volume:after,.marvel-device.iphone5c .volume:after {
+	position:absolute;
+	left:0;
+	bottom:-64px;
+	height:27px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone5s .camera,.marvel-device.iphone5c .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:32px;
+	left:50%;
+	margin-left:-5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	z-index:3;
+}
+
+.marvel-device.iphone5s .sensor,.marvel-device.iphone5c .sensor {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:60px;
+	left:160px;
+	z-index:3;
+	margin-left:-32px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.marvel-device.iphone5s .speaker,.marvel-device.iphone5c .speaker {
+	background:#292728;
+	width:64px;
+	height:10px;
+	position:absolute;
+	top:60px;
+	left:50%;
+	margin-left:-32px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	z-index:3;
+}
+
+.marvel-device.iphone5s.landscape,.marvel-device.iphone5c.landscape {
+	padding:22px 105px;
+	height:320px;
+	width:568px;
+}
+
+.marvel-device.iphone5s.landscape .sleep,.marvel-device.iphone5c.landscape .sleep {
+	right:-4px;
+	top:calc(100% - 120px);
+	height:60px;
+	width:4px;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.iphone5s.landscape .volume,.marvel-device.iphone5c.landscape .volume {
+	width:27px;
+	height:4px;
+	top:-4px;
+	left:calc(100% - 180px);
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone5s.landscape .volume:before,.marvel-device.iphone5c.landscape .volume:before {
+	width:35px;
+	height:4px;
+	top:0;
+	right:-75px;
+	left:auto;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone5s.landscape .volume:after,.marvel-device.iphone5c.landscape .volume:after {
+	bottom:0;
+	left:-64px;
+	z-index:999;
+	height:4px;
+	width:27px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone5s.landscape .sensor,.marvel-device.iphone5c.landscape .sensor {
+	top:160px;
+	left:calc(100% - 60px);
+	margin-left:0;
+	margin-top:-32px;
+}
+
+.marvel-device.iphone5s.landscape .speaker,.marvel-device.iphone5c.landscape .speaker {
+	height:64px;
+	width:10px;
+	left:calc(100% - 60px);
+	top:50%;
+	margin-left:0;
+	margin-top:-32px;
+}
+
+.marvel-device.iphone5s.landscape .camera,.marvel-device.iphone5c.landscape .camera {
+	left:calc(100% - 32px);
+	top:50%;
+	margin-left:0;
+	margin-top:-5px;
+}
+
+.marvel-device.iphone5s .home {
+	-moz-border-radius:36px;
+	-webkit-border-radius:36px;
+	border-radius:36px;
+	width:68px;
+	-webkit-box-shadow:inset 0 0 0 4px #2c2b2c;
+	box-shadow:inset 0 0 0 4px #2c2b2c;
+	height:68px;
+	position:absolute;
+	left:50%;
+	margin-left:-34px;
+	bottom:19px;
+	z-index:3;
+}
+
+.marvel-device.iphone5s .top-bar {
+	top:70px;
+	position:absolute;
+	left:0;
+}
+
+.marvel-device.iphone5s .bottom-bar {
+	bottom:70px;
+	position:absolute;
+	left:0;
+}
+
+.marvel-device.iphone5s.landscape .home {
+	left:19px;
+	bottom:50%;
+	margin-bottom:-34px;
+	margin-left:0;
+}
+
+.marvel-device.iphone5s.landscape .top-bar {
+	left:70px;
+	top:0;
+	width:3px;
+	height:100%;
+}
+
+.marvel-device.iphone5s.landscape .bottom-bar {
+	right:70px;
+	left:auto;
+	bottom:0;
+	width:3px;
+	height:100%;
+}
+
+.marvel-device.iphone5s.silver {
+	background:#bcbcbc;
+}
+
+.marvel-device.iphone5s.silver:before {
+	background:#fcfcfc;
+}
+
+.marvel-device.iphone5s.silver .volume,.marvel-device.iphone5s.silver .sleep {
+	background:#d6d6d6;
+}
+
+.marvel-device.iphone5s.silver .top-bar,.marvel-device.iphone5s.silver .bottom-bar {
+	background:#eaebec;
+}
+
+.marvel-device.iphone5s.silver .home {
+	-webkit-box-shadow:inset 0 0 0 4px #bcbcbc;
+	box-shadow:inset 0 0 0 4px #bcbcbc;
+}
+
+.marvel-device.iphone5s.gold {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone5s.gold:before {
+	background:#fcfcfc;
+}
+
+.marvel-device.iphone5s.gold .volume,.marvel-device.iphone5s.gold .sleep {
+	background:#f9e7d3;
+}
+
+.marvel-device.iphone5s.gold .top-bar,.marvel-device.iphone5s.gold .bottom-bar {
+	background:#fff;
+}
+
+.marvel-device.iphone5s.gold .home {
+	-webkit-box-shadow:inset 0 0 0 4px #f9e7d3;
+	box-shadow:inset 0 0 0 4px #f9e7d3;
+}
+
+.marvel-device.iphone5c {
+	background:#fff;
+	-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.marvel-device.iphone5c .top-bar,.marvel-device.iphone5c .bottom-bar {
+	display:none;
+}
+
+.marvel-device.iphone5c .home {
+	background:#242324;
+	-moz-border-radius:36px;
+	-webkit-border-radius:36px;
+	border-radius:36px;
+	width:68px;
+	height:68px;
+	z-index:3;
+	position:absolute;
+	left:50%;
+	margin-left:-34px;
+	bottom:19px;
+}
+
+.marvel-device.iphone5c .home:after {
+	width:20px;
+	height:20px;
+	border:1px solid rgba(255,255,255,0.1);
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	position:absolute;
+	display:block;
+	content:'';
+	top:50%;
+	left:50%;
+	margin-top:-11px;
+	margin-left:-11px;
+}
+
+.marvel-device.iphone5c.landscape .home {
+	left:19px;
+	bottom:50%;
+	margin-bottom:-34px;
+	margin-left:0;
+}
+
+.marvel-device.iphone5c .volume,.marvel-device.iphone5c .sleep {
+	background:#ddd;
+}
+
+.marvel-device.iphone5c.red {
+	background:#f96b6c;
+}
+
+.marvel-device.iphone5c.red .volume,.marvel-device.iphone5c.red .sleep {
+	background:#ed5758;
+}
+
+.marvel-device.iphone5c.yellow {
+	background:#f2dc60;
+}
+
+.marvel-device.iphone5c.yellow .volume,.marvel-device.iphone5c.yellow .sleep {
+	background:#e5ce4c;
+}
+
+.marvel-device.iphone5c.green {
+	background:#97e563;
+}
+
+.marvel-device.iphone5c.green .volume,.marvel-device.iphone5c.green .sleep {
+	background:#85d94d;
+}
+
+.marvel-device.iphone5c.blue {
+	background:#33a2db;
+}
+
+.marvel-device.iphone5c.blue .volume,.marvel-device.iphone5c.blue .sleep {
+	background:#2694cd;
+}
+
+.marvel-device.iphone4s {
+	padding:129px 27px;
+	width:320px;
+	height:480px;
+	background:#686868;
+	-webkit-border-radius:54px;
+	border-radius:54px;
+}
+
+.marvel-device.iphone4s:before {
+	content:'';
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	position:absolute;
+	top:4px;
+	left:4px;
+	z-index:1;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	background:#1e1e1e;
+}
+
+.marvel-device.iphone4s .top-bar {
+	top:60px;
+	position:absolute;
+	left:0;
+}
+
+.marvel-device.iphone4s .bottom-bar {
+	bottom:90px;
+	position:absolute;
+	left:0;
+}
+
+.marvel-device.iphone4s .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:72px;
+	left:134px;
+	z-index:3;
+	margin-left:-5px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.iphone4s .speaker {
+	background:#292728;
+	width:64px;
+	height:10px;
+	position:absolute;
+	top:72px;
+	left:50%;
+	z-index:3;
+	margin-left:-32px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.marvel-device.iphone4s .sensor {
+	background:#292728;
+	width:40px;
+	height:10px;
+	position:absolute;
+	top:36px;
+	left:50%;
+	z-index:3;
+	margin-left:-20px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.marvel-device.iphone4s .home {
+	background:#242324;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:72px;
+	height:72px;
+	z-index:3;
+	position:absolute;
+	left:50%;
+	margin-left:-36px;
+	bottom:30px;
+}
+
+.marvel-device.iphone4s .home:after {
+	width:20px;
+	height:20px;
+	border:1px solid rgba(255,255,255,0.1);
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	position:absolute;
+	display:block;
+	content:'';
+	top:50%;
+	left:50%;
+	margin-top:-11px;
+	margin-left:-11px;
+}
+
+.marvel-device.iphone4s .sleep {
+	position:absolute;
+	top:-4px;
+	right:60px;
+	width:60px;
+	height:4px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+	background:#4D4D4D;
+}
+
+.marvel-device.iphone4s .volume {
+	position:absolute;
+	left:-4px;
+	top:160px;
+	height:27px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:#4D4D4D;
+}
+
+.marvel-device.iphone4s .volume:before {
+	position:absolute;
+	left:0;
+	top:-70px;
+	height:35px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone4s .volume:after {
+	position:absolute;
+	left:0;
+	bottom:-64px;
+	height:27px;
+	width:4px;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	background:inherit;
+	content:'';
+	display:block;
+}
+
+.marvel-device.iphone4s.landscape {
+	padding:27px 129px;
+	height:320px;
+	width:480px;
+}
+
+.marvel-device.iphone4s.landscape .bottom-bar {
+	left:90px;
+	bottom:0;
+	height:100%;
+	width:3px;
+}
+
+.marvel-device.iphone4s.landscape .top-bar {
+	left:calc(100% - 60px);
+	top:0;
+	height:100%;
+	width:3px;
+}
+
+.marvel-device.iphone4s.landscape .camera {
+	top:134px;
+	left:calc(100% - 72px);
+	margin-left:0;
+}
+
+.marvel-device.iphone4s.landscape .speaker {
+	top:50%;
+	margin-left:0;
+	margin-top:-32px;
+	left:calc(100% - 72px);
+	width:10px;
+	height:64px;
+}
+
+.marvel-device.iphone4s.landscape .sensor {
+	height:40px;
+	width:10px;
+	left:calc(100% - 36px);
+	top:50%;
+	margin-left:0;
+	margin-top:-20px;
+}
+
+.marvel-device.iphone4s.landscape .home {
+	left:30px;
+	bottom:50%;
+	margin-left:0;
+	margin-bottom:-36px;
+}
+
+.marvel-device.iphone4s.landscape .sleep {
+	height:60px;
+	width:4px;
+	right:-4px;
+	top:calc(100% - 120px);
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.iphone4s.landscape .volume {
+	top:-4px;
+	left:calc(100% - 187px);
+	height:4px;
+	width:27px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone4s.landscape .volume:before {
+	right:-70px;
+	left:auto;
+	top:0;
+	width:35px;
+	height:4px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone4s.landscape .volume:after {
+	width:27px;
+	height:4px;
+	bottom:0;
+	left:-64px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.iphone4s.silver {
+	background:#bcbcbc;
+}
+
+.marvel-device.iphone4s.silver:before {
+	background:#fcfcfc;
+}
+
+.marvel-device.iphone4s.silver .home {
+	background:#fcfcfc;
+	-webkit-box-shadow:inset 0 0 0 1px #bcbcbc;
+	box-shadow:inset 0 0 0 1px #bcbcbc;
+}
+
+.marvel-device.iphone4s.silver .home:after {
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.marvel-device.iphone4s.silver .volume,.marvel-device.iphone4s.silver .sleep {
+	background:#d6d6d6;
+}
+
+.marvel-device.nexus5 {
+	padding:50px 15px;
+	width:320px;
+	height:568px;
+	background:#1e1e1e;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+}
+
+.marvel-device.nexus5:before {
+	-webkit-border-radius:600px / 50px;
+	border-radius:600px / 50px;
+	background:inherit;
+	content:'';
+	top:0;
+	position:absolute;
+	height:103.1%;
+	width:calc(100% - 26px);
+	top:50%;
+	left:50%;
+	-moz-transform:translateX(-50%) translateY(-50%);
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	-o-transform:translateX(-50%) translateY(-50%);
+	-ms-transform:translateX(-50%) translateY(-50%);
+	transform:translateX(-50%) translateY(-50%);
+}
+
+.marvel-device.nexus5 .top-bar {
+	width:calc(100% - 8px);
+	height:calc(100% - 6px);
+	position:absolute;
+	top:3px;
+	left:4px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	background:#181818;
+}
+
+.marvel-device.nexus5 .top-bar:before {
+	-webkit-border-radius:600px / 50px;
+	border-radius:600px / 50px;
+	background:inherit;
+	content:'';
+	top:0;
+	position:absolute;
+	height:103%;
+	width:calc(100% - 26px);
+	top:50%;
+	left:50%;
+	-moz-transform:translateX(-50%) translateY(-50%);
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	-o-transform:translateX(-50%) translateY(-50%);
+	-ms-transform:translateX(-50%) translateY(-50%);
+	transform:translateX(-50%) translateY(-50%);
+}
+
+.marvel-device.nexus5 .bottom-bar {
+	display:none;
+}
+
+.marvel-device.nexus5 .sleep {
+	width:3px;
+	position:absolute;
+	left:-3px;
+	top:110px;
+	height:100px;
+	background:inherit;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+}
+
+.marvel-device.nexus5 .volume {
+	width:3px;
+	position:absolute;
+	right:-3px;
+	top:70px;
+	height:45px;
+	background:inherit;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.nexus5 .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:18px;
+	left:50%;
+	z-index:3;
+	margin-left:-5px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.nexus5 .camera:before {
+	background:#3c3d3d;
+	width:6px;
+	height:6px;
+	content:'';
+	display:block;
+	position:absolute;
+	top:2px;
+	left:-100px;
+	z-index:3;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.nexus5.landscape {
+	padding:15px 50px;
+	height:320px;
+	width:568px;
+}
+
+.marvel-device.nexus5.landscape:before {
+	width:103.1%;
+	height:calc(100% - 26px);
+	-webkit-border-radius:50px / 600px;
+	border-radius:50px / 600px;
+}
+
+.marvel-device.nexus5.landscape .top-bar {
+	left:3px;
+	top:4px;
+	height:calc(100% - 8px);
+	width:calc(100% - 6px);
+}
+
+.marvel-device.nexus5.landscape .top-bar:before {
+	width:103%;
+	height:calc(100% - 26px);
+	-webkit-border-radius:50px / 600px;
+	border-radius:50px / 600px;
+}
+
+.marvel-device.nexus5.landscape .sleep {
+	height:3px;
+	width:100px;
+	left:calc(100% - 210px);
+	top:-3px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.nexus5.landscape .volume {
+	height:3px;
+	width:45px;
+	right:70px;
+	top:100%;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+}
+
+.marvel-device.nexus5.landscape .camera {
+	top:50%;
+	left:calc(100% - 18px);
+	margin-left:0;
+	margin-top:-5px;
+}
+
+.marvel-device.nexus5.landscape .camera:before {
+	top:-100px;
+	left:2px;
+}
+
+.marvel-device.s5 {
+	padding:60px 18px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	width:320px;
+	height:568px;
+	background:#bcbcbc;
+}
+
+.marvel-device.s5:before,.marvel-device.s5:after {
+	width:calc(100% - 52px);
+	content:'';
+	display:block;
+	height:26px;
+	background:inherit;
+	position:absolute;
+	-webkit-border-radius:500px / 40px;
+	border-radius:500px / 40px;
+	left:50%;
+	-moz-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.marvel-device.s5:before {
+	top:-7px;
+}
+
+.marvel-device.s5:after {
+	bottom:-7px;
+}
+
+.marvel-device.s5 .bottom-bar {
+	display:none;
+}
+
+.marvel-device.s5 .top-bar {
+	-webkit-border-radius:37px;
+	border-radius:37px;
+	width:calc(100% - 10px);
+	height:calc(100% - 10px);
+	top:5px;
+	left:5px;
+	background:radial-gradient(rgba(0,0,0,0.02) 20%,transparent 60%) 0 0,radial-gradient(rgba(0,0,0,0.02) 20%,transparent 60%) 3px 3px;
+	background-color:#fff;
+	background-size:4px 4px;
+	background-position:center;
+	z-index:2;
+	position:absolute;
+}
+
+.marvel-device.s5 .top-bar:before,.marvel-device.s5 .top-bar:after {
+	width:calc(100% - 48px);
+	content:'';
+	display:block;
+	height:26px;
+	background:inherit;
+	position:absolute;
+	-webkit-border-radius:500px / 40px;
+	border-radius:500px / 40px;
+	left:50%;
+	-moz-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.marvel-device.s5 .top-bar:before {
+	top:-7px;
+}
+
+.marvel-device.s5 .top-bar:after {
+	bottom:-7px;
+}
+
+.marvel-device.s5 .sleep {
+	width:3px;
+	position:absolute;
+	left:-3px;
+	top:100px;
+	height:100px;
+	background:#cecece;
+	-webkit-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+}
+
+.marvel-device.s5 .speaker {
+	width:68px;
+	height:8px;
+	position:absolute;
+	top:20px;
+	display:block;
+	z-index:3;
+	left:50%;
+	margin-left:-34px;
+	background-color:#bcbcbc;
+	background-position:top left;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+.marvel-device.s5 .sensor {
+	display:block;
+	position:absolute;
+	top:20px;
+	right:110px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:8px;
+	height:8px;
+	z-index:3;
+}
+
+.marvel-device.s5 .sensor:after {
+	display:block;
+	content:'';
+	position:absolute;
+	top:0;
+	right:12px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:8px;
+	height:8px;
+	z-index:3;
+}
+
+.marvel-device.s5 .camera {
+	display:block;
+	position:absolute;
+	top:24px;
+	right:42px;
+	background:#000;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:10px;
+	height:10px;
+	z-index:3;
+}
+
+.marvel-device.s5 .camera:before {
+	width:4px;
+	height:4px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	position:absolute;
+	content:'';
+	top:50%;
+	left:50%;
+	margin-top:-2px;
+	margin-left:-2px;
+}
+
+.marvel-device.s5 .home {
+	position:absolute;
+	z-index:3;
+	bottom:17px;
+	left:50%;
+	width:70px;
+	height:20px;
+	background:#fff;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	display:block;
+	margin-left:-35px;
+	border:2px solid #000;
+}
+
+.marvel-device.s5.landscape {
+	padding:18px 60px;
+	height:320px;
+	width:568px;
+}
+
+.marvel-device.s5.landscape:before,.marvel-device.s5.landscape:after {
+	height:calc(100% - 52px);
+	width:26px;
+	-webkit-border-radius:40px / 500px;
+	border-radius:40px / 500px;
+	-moz-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.marvel-device.s5.landscape:before {
+	top:50%;
+	left:-7px;
+}
+
+.marvel-device.s5.landscape:after {
+	top:50%;
+	left:auto;
+	right:-7px;
+}
+
+.marvel-device.s5.landscape .top-bar:before,.marvel-device.s5.landscape .top-bar:after {
+	width:26px;
+	height:calc(100% - 48px);
+	-webkit-border-radius:40px / 500px;
+	border-radius:40px / 500px;
+	-moz-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.marvel-device.s5.landscape .top-bar:before {
+	right:-7px;
+	top:50%;
+	left:auto;
+}
+
+.marvel-device.s5.landscape .top-bar:after {
+	left:-7px;
+	top:50%;
+	right:auto;
+}
+
+.marvel-device.s5.landscape .sleep {
+	height:3px;
+	width:100px;
+	left:calc(100% - 200px);
+	top:-3px;
+	-webkit-border-radius:2px 2px 0 0;
+	border-radius:2px 2px 0 0;
+}
+
+.marvel-device.s5.landscape .speaker {
+	height:68px;
+	width:8px;
+	left:calc(100% - 20px);
+	top:50%;
+	margin-left:0;
+	margin-top:-34px;
+}
+
+.marvel-device.s5.landscape .sensor {
+	right:20px;
+	top:calc(100% - 110px);
+}
+
+.marvel-device.s5.landscape .sensor:after {
+	left:-12px;
+	right:0;
+}
+
+.marvel-device.s5.landscape .camera {
+	top:calc(100% - 42px);
+	right:24px;
+}
+
+.marvel-device.s5.landscape .home {
+	width:20px;
+	height:70px;
+	bottom:50%;
+	margin-bottom:-35px;
+	margin-left:0;
+	left:17px;
+}
+
+.marvel-device.s5.black {
+	background:#1e1e1e;
+}
+
+.marvel-device.s5.black .speaker {
+	background:#000;
+}
+
+.marvel-device.s5.black .sleep {
+	background:#1e1e1e;
+}
+
+.marvel-device.s5.black .top-bar {
+	background:radial-gradient(rgba(0,0,0,0.05) 20%,transparent 60%) 0 0,radial-gradient(rgba(0,0,0,0.05) 20%,transparent 60%) 3px 3px;
+	background-color:#2c2b2c;
+	background-size:4px 4px;
+}
+
+.marvel-device.s5.black .home {
+	background:#2c2b2c;
+}
+
+.marvel-device.lumia920 {
+	padding:80px 35px 125px;
+	background:#fd0;
+	width:320px;
+	height:533px;
+	-moz-border-radius:40px / 3px;
+	-webkit-border-radius:40px / 3px;
+	border-radius:40px / 3px;
+}
+
+.marvel-device.lumia920 .bottom-bar {
+	display:none;
+}
+
+.marvel-device.lumia920 .top-bar {
+	width:calc(100% - 24px);
+	height:calc(100% - 32px);
+	position:absolute;
+	top:16px;
+	left:12px;
+	-moz-border-radius:24px;
+	-webkit-border-radius:24px;
+	border-radius:24px;
+	background:#000;
+	z-index:1;
+}
+
+.marvel-device.lumia920 .top-bar:before {
+	background:#1e1e1e;
+	display:block;
+	content:'';
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	top:2px;
+	left:2px;
+	position:absolute;
+	-moz-border-radius:22px;
+	-webkit-border-radius:22px;
+	border-radius:22px;
+}
+
+.marvel-device.lumia920 .volume {
+	width:3px;
+	position:absolute;
+	top:130px;
+	height:100px;
+	background:#1e1e1e;
+	right:-3px;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.lumia920 .volume:before {
+	width:3px;
+	position:absolute;
+	top:190px;
+	content:'';
+	display:block;
+	height:50px;
+	background:inherit;
+	right:0;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.lumia920 .volume:after {
+	width:3px;
+	position:absolute;
+	top:460px;
+	content:'';
+	display:block;
+	height:50px;
+	background:inherit;
+	right:0;
+	-webkit-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+
+.marvel-device.lumia920 .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:34px;
+	right:130px;
+	z-index:5;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.marvel-device.lumia920 .speaker {
+	background:#292728;
+	width:64px;
+	height:10px;
+	position:absolute;
+	top:38px;
+	left:50%;
+	margin-left:-32px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	z-index:3;
+}
+
+.marvel-device.lumia920.landscape {
+	padding:35px 80px 35px 125px;
+	height:320px;
+	width:568px;
+	-moz-border-radius:2px / 100px;
+	-webkit-border-radius:2px / 100px;
+	border-radius:2px / 100px;
+}
+
+.marvel-device.lumia920.landscape .top-bar {
+	height:calc(100% - 24px);
+	width:calc(100% - 32px);
+	left:16px;
+	top:12px;
+}
+
+.marvel-device.lumia920.landscape .volume {
+	height:3px;
+	right:130px;
+	width:100px;
+	top:100%;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+}
+
+.marvel-device.lumia920.landscape .volume:before {
+	height:3px;
+	right:190px;
+	top:0;
+	width:50px;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+}
+
+.marvel-device.lumia920.landscape .volume:after {
+	height:3px;
+	right:430px;
+	top:0;
+	width:50px;
+	-webkit-border-radius:0 0 2px 2px;
+	border-radius:0 0 2px 2px;
+}
+
+.marvel-device.lumia920.landscape .camera {
+	right:30px;
+	top:calc(100% - 140px);
+}
+
+.marvel-device.lumia920.landscape .speaker {
+	width:10px;
+	height:64px;
+	top:50%;
+	margin-left:0;
+	margin-top:-32px;
+	left:calc(100% - 48px);
+}
+
+.marvel-device.lumia920.black {
+	background:#000;
+}
+
+.marvel-device.lumia920.white {
+	background:#fff;
+	-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.marvel-device.lumia920.blue {
+	background:#00acdd;
+}
+
+.marvel-device.lumia920.red {
+	background:#CC3E32;
+}
+
+.marvel-device.htc-one {
+	padding:72px 25px 100px;
+	width:320px;
+	height:568px;
+	background:#bebebe;
+	-webkit-border-radius:34px;
+	border-radius:34px;
+}
+
+.marvel-device.htc-one:before {
+	content:'';
+	display:block;
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	position:absolute;
+	top:2px;
+	left:2px;
+	background:#adadad;
+	-webkit-border-radius:32px;
+	border-radius:32px;
+}
+
+.marvel-device.htc-one:after {
+	content:'';
+	display:block;
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	position:absolute;
+	top:4px;
+	left:4px;
+	background:#eee;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+}
+
+.marvel-device.htc-one .top-bar {
+	width:calc(100% - 4px);
+	height:635px;
+	position:absolute;
+	background:#424242;
+	top:50px;
+	z-index:1;
+	left:2px;
+}
+
+.marvel-device.htc-one .top-bar:before {
+	content:'';
+	position:absolute;
+	width:calc(100% - 4px);
+	height:100%;
+	position:absolute;
+	background:#000;
+	top:0;
+	z-index:1;
+	left:2px;
+}
+
+.marvel-device.htc-one .bottom-bar {
+	display:none;
+}
+
+.marvel-device.htc-one .speaker {
+	height:16px;
+	width:216px;
+	display:block;
+	position:absolute;
+	top:22px;
+	z-index:2;
+	left:50%;
+	margin-left:-108px;
+	background:radial-gradient(#343434 25%,transparent 50%) 0 0,radial-gradient(#343434 25%,transparent 50%) 4px 4px;
+	background-size:4px 4px;
+	background-position:top left;
+}
+
+.marvel-device.htc-one .speaker:after {
+	content:'';
+	height:16px;
+	width:216px;
+	display:block;
+	position:absolute;
+	top:676px;
+	z-index:2;
+	left:50%;
+	margin-left:-108px;
+	background:inherit;
+}
+
+.marvel-device.htc-one .camera {
+	display:block;
+	position:absolute;
+	top:18px;
+	right:38px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:24px;
+	height:24px;
+	z-index:3;
+}
+
+.marvel-device.htc-one .camera:before {
+	width:8px;
+	height:8px;
+	background:#000;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	position:absolute;
+	content:'';
+	top:50%;
+	left:50%;
+	margin-top:-4px;
+	margin-left:-4px;
+}
+
+.marvel-device.htc-one .sensor {
+	display:block;
+	position:absolute;
+	top:29px;
+	left:60px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:8px;
+	height:8px;
+	z-index:3;
+}
+
+.marvel-device.htc-one .sensor:after {
+	display:block;
+	content:'';
+	position:absolute;
+	top:0;
+	right:12px;
+	background:#3c3d3d;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	width:8px;
+	height:8px;
+	z-index:3;
+}
+
+.marvel-device.htc-one.landscape {
+	padding:25px 72px 25px 100px;
+	height:320px;
+	width:568px;
+}
+
+.marvel-device.htc-one.landscape .top-bar {
+	height:calc(100% - 4px);
+	width:635px;
+	left:calc(100% - 685px);
+	top:2px;
+}
+
+.marvel-device.htc-one.landscape .speaker {
+	width:16px;
+	height:216px;
+	left:calc(100% - 38px);
+	top:50%;
+	margin-left:0;
+	margin-top:-108px;
+}
+
+.marvel-device.htc-one.landscape .speaker:after {
+	width:16px;
+	height:216px;
+	left:calc(100% - 692px);
+	top:50%;
+	margin-left:0;
+	margin-top:-108px;
+}
+
+.marvel-device.htc-one.landscape .camera {
+	right:18px;
+	top:calc(100% - 38px);
+}
+
+.marvel-device.htc-one.landscape .sensor {
+	left:calc(100% - 29px);
+	top:60px;
+}
+
+.marvel-device.htc-one.landscape .sensor :after {
+	right:0;
+	top:-12px;
+}
+
+.marvel-device.ipad {
+	width:576px;
+	height:768px;
+	padding:90px 25px;
+	background:#242324;
+	-webkit-border-radius:44px;
+	border-radius:44px;
+}
+
+.marvel-device.ipad:before {
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	position:absolute;
+	content:'';
+	display:block;
+	top:4px;
+	left:4px;
+	-webkit-border-radius:40px;
+	border-radius:40px;
+	background:#1e1e1e;
+}
+
+.marvel-device.ipad .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:44px;
+	left:50%;
+	margin-left:-5px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.ipad .top-bar,.marvel-device.ipad .bottom-bar {
+	display:none;
+}
+
+.marvel-device.ipad .home {
+	background:#242324;
+	-webkit-border-radius:36px;
+	border-radius:36px;
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:50%;
+	margin-left:-25px;
+	bottom:22px;
+}
+
+.marvel-device.ipad .home:after {
+	width:15px;
+	height:15px;
+	margin-top:-8px;
+	margin-left:-8px;
+	border:1px solid rgba(255,255,255,0.1);
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	position:absolute;
+	display:block;
+	content:'';
+	top:50%;
+	left:50%;
+}
+
+.marvel-device.ipad.landscape {
+	height:576px;
+	width:768px;
+	padding:25px 90px;
+}
+
+.marvel-device.ipad.landscape .camera {
+	left:calc(100% - 44px);
+	top:50%;
+	margin-left:0;
+	margin-top:-5px;
+}
+
+.marvel-device.ipad.landscape .home {
+	top:50%;
+	left:22px;
+	margin-left:0;
+	margin-top:-25px;
+}
+
+.marvel-device.ipad.silver {
+	background:#bcbcbc;
+}
+
+.marvel-device.ipad.silver:before {
+	background:#fcfcfc;
+}
+
+.marvel-device.ipad.silver .home {
+	background:#fcfcfc;
+	-webkit-box-shadow:inset 0 0 0 1px #bcbcbc;
+	box-shadow:inset 0 0 0 1px #bcbcbc;
+}
+
+.marvel-device.ipad.silver .home:after {
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.marvel-device.macbook {
+	width:960px;
+	height:600px;
+	padding:44px 44px 76px;
+	margin:0 auto;
+	background:#bebebe;
+	-webkit-border-radius:34px;
+	border-radius:34px;
+}
+
+.marvel-device.macbook:before {
+	width:calc(100% - 8px);
+	height:calc(100% - 8px);
+	position:absolute;
+	content:'';
+	display:block;
+	top:4px;
+	left:4px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	background:#1e1e1e;
+}
+
+.marvel-device.macbook .top-bar {
+	width:calc(100% + 2 * 70px);
+	height:40px;
+	position:absolute;
+	content:'';
+	display:block;
+	top:680px;
+	left:-70px;
+	border-bottom-left-radius:90px 18px;
+	border-bottom-right-radius:90px 18px;
+	background:#bebebe;
+	-webkit-box-shadow:inset 0 -4px 13px 3px rgba(34,34,34,0.6);
+	-moz-box-shadow:inset 0 -4px 13px 3px rgba(34,34,34,0.6);
+	box-shadow:inset 0 -4px 13px 3px rgba(34,34,34,0.6);
+}
+
+.marvel-device.macbook .top-bar:before {
+	width:100%;
+	height:24px;
+	content:'';
+	display:block;
+	top:0;
+	left:0;
+	background:#f0f0f0;
+	border-bottom:2px solid #aaa;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	position:relative;
+}
+
+.marvel-device.macbook .top-bar:after {
+	width:16%;
+	height:14px;
+	content:'';
+	display:block;
+	top:0;
+	background:#ddd;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	-webkit-border-radius:0 0 20px 20px;
+	border-radius:0 0 20px 20px;
+	-webkit-box-shadow:inset 0 -3px 10px #999;
+	-moz-box-shadow:inset 0 -3px 10px #999;
+	box-shadow:inset 0 -3px 10px #999;
+}
+
+.marvel-device.macbook .bottom-bar {
+	background:transparent;
+	width:calc(100% + 2 * 70px);
+	height:26px;
+	position:absolute;
+	content:'';
+	display:block;
+	top:680px;
+	left:-70px;
+}
+
+.marvel-device.macbook .bottom-bar:before,.marvel-device.macbook .bottom-bar:after {
+	height:calc(100% - 2px);
+	width:80px;
+	content:'';
+	display:block;
+	top:0;
+	position:absolute;
+}
+
+.marvel-device.macbook .bottom-bar:before {
+	left:0;
+	background:#f0f0f0;
+	background:-moz-linear-gradient(left,#747474 0%,#c3c3c3 5%,#ebebeb 14%,#979797 41%,#f0f0f0 80%,#f0f0f0 100%,#f0f0f0 100%);
+	background:-webkit-gradient(linear,left top,right top,color-stop(0%,#747474),color-stop(5%,#c3c3c3),color-stop(14%,#ebebeb),color-stop(41%,#979797),color-stop(80%,#f0f0f0),color-stop(100%,#f0f0f0),color-stop(100%,#f0f0f0));
+	background:-webkit-linear-gradient(left,#747474 0%,#c3c3c3 5%,#ebebeb 14%,#979797 41%,#f0f0f0 80%,#f0f0f0 100%,#f0f0f0 100%);
+	background:-o-linear-gradient(left,#747474 0%,#c3c3c3 5%,#ebebeb 14%,#979797 41%,#f0f0f0 80%,#f0f0f0 100%,#f0f0f0 100%);
+	background:-ms-linear-gradient(left,#747474 0%,#c3c3c3 5%,#ebebeb 14%,#979797 41%,#f0f0f0 80%,#f0f0f0 100%,#f0f0f0 100%);
+	background:linear-gradient(to right,#747474 0%,#c3c3c3 5%,#ebebeb 14%,#979797 41%,#f0f0f0 80%,#f0f0f0 100%,#f0f0f0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#747474',endColorstr='#f0f0f0',GradientType=1);
+}
+
+.marvel-device.macbook .bottom-bar:after {
+	right:0;
+	background:#f0f0f0;
+	background:-moz-linear-gradient(left,#f0f0f0 0%,#f0f0f0 0%,#f0f0f0 20%,#979797 59%,#ebebeb 86%,#c3c3c3 95%,#747474 100%);
+	background:-webkit-gradient(linear,left top,right top,color-stop(0%,#f0f0f0),color-stop(0%,#f0f0f0),color-stop(20%,#f0f0f0),color-stop(59%,#979797),color-stop(86%,#ebebeb),color-stop(95%,#c3c3c3),color-stop(100%,#747474));
+	background:-webkit-linear-gradient(left,#f0f0f0 0%,#f0f0f0 0%,#f0f0f0 20%,#979797 59%,#ebebeb 86%,#c3c3c3 95%,#747474 100%);
+	background:-o-linear-gradient(left,#f0f0f0 0%,#f0f0f0 0%,#f0f0f0 20%,#979797 59%,#ebebeb 86%,#c3c3c3 95%,#747474 100%);
+	background:-ms-linear-gradient(left,#f0f0f0 0%,#f0f0f0 0%,#f0f0f0 20%,#979797 59%,#ebebeb 86%,#c3c3c3 95%,#747474 100%);
+	background:linear-gradient(to right,#f0f0f0 0%,#f0f0f0 0%,#f0f0f0 20%,#979797 59%,#ebebeb 86%,#c3c3c3 95%,#747474 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0',endColorstr='#747474',GradientType=1);
+}
+
+.marvel-device.macbook .camera {
+	background:#3c3d3d;
+	width:10px;
+	height:10px;
+	position:absolute;
+	top:20px;
+	left:50%;
+	margin-left:-5px;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+}
+
+.marvel-device.macbook .home {
+	display:none;
+}
+
+/*!blue button buttons Peter River Flat Button
+==================================================*/
+.peter-river-flat-button {
+	position:relative;
+	vertical-align:top;
+	width:100%;
+	height:60px;
+	padding:0;
+	font-size:17px;
+	padding:12px;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 1px 2px rgba(0,0,0,0.25);
+	background:#3498db;
+	border:0;
+	border-bottom:2px solid #2a8bcc;
+	cursor:pointer;
+	-webkit-box-shadow:inset 0 -2px #2a8bcc;
+	box-shadow:inset 0 -2px #2a8bcc;
+}
+
+.peter-river-flat-button:active {
+	top:1px;
+	outline:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+/*!red button #Pomegranate Flat Button
+==================================================*/
+.pomegranate-flat-button {
+	position:relative;
+	vertical-align:top;
+	width:100%;
+	height:60px;
+	padding:0;
+	font-size:17px;
+	padding:12px;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 1px 2px rgba(0,0,0,0.25);
+	background:#c0392b;
+	border:0;
+	border-bottom:2px solid #b53224;
+	cursor:pointer;
+	-webkit-box-shadow:inset 0 -2px #b53224;
+	box-shadow:inset 0 -2px #b53224;
+}
+
+.pomegranate-flat-button:active {
+	top:1px;
+	outline:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}

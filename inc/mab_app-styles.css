@@ -1,0 +1,26 @@
+.mab_app_button_selection_section, .mab_app_button_other_amt_section, .mab_app_button_reference_section{
+    margin-bottom: 10px;
+}
+.mab_app_button_widget{
+    margin: 10px 0;
+}
+.wp_accept_pp_button_form input{
+    width: auto !important;
+}
+
+.buy_now_button_image {
+    max-width: 100%;
+}
+
+.mab_app_payment_subject{
+    margin: 10px 0px;
+}
+.mab_app_other_amount_label{
+    margin: 10px 0px;
+}
+.mab_app_ref_title_label{
+    margin: 10px 0px;
+}
+.mab_app_payment_button{
+    margin: 10px 0px;
+}

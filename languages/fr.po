@@ -1,0 +1,1368 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Mobile App Builder\n"
+"POT-Creation-Date: 2016-11-06 01:27+0100\n"
+"PO-Revision-Date: 2016-11-06 22:27+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: mobile-app-builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/ajax.php:111 inc/ajax.php:269 inc/ajax.php:327 inc/ajax.php:376
+#: inc/ajax.php:482 inc/ajax.php:574 inc/ajax.php:672 inc/ajax.php:770
+#: inc/ajax.php:826 inc/ajax.php:893
+msgid "Sorry! You failed the security check"
+msgstr "La vérification de sécurité a échoué!"
+
+#: inc/ajax.php:114
+msgid "You don't have permission to delete this post"
+msgstr "Vous n’avez pas l’autorisation de supprimer ceci!"
+
+#: inc/ajax.php:118
+msgid "The article could not be deleted"
+msgstr "L’article n’a pas pu être supprimé"
+
+#: inc/ajax.php:121
+msgid "The article has been deleted successfully!"
+msgstr "L’article a été supprimé avec succès !"
+
+#: inc/ajax.php:215
+msgid "Save page settings"
+msgstr "Enregistrer les paramètres de page."
+
+#: inc/ajax.php:275 inc/ajax.php:333 inc/ajax.php:382 inc/ajax.php:488
+#: inc/ajax.php:580 inc/ajax.php:678 inc/ajax.php:776
+msgid "You don't have permission to edit this post."
+msgstr "Vous n'êtes pas autorisé à modifier cette publication."
+
+#: inc/ajax.php:418 inc/ajax.php:510 inc/ajax.php:602 inc/ajax.php:717
+msgid "published"
+msgstr "publié"
+
+#: inc/ajax.php:421 inc/ajax.php:513 inc/ajax.php:605 inc/ajax.php:720
+msgid "submitted"
+msgstr "Envoyer"
+
+#: inc/ajax.php:427 inc/ajax.php:519 inc/ajax.php:611 inc/ajax.php:726
+msgid "updated"
+msgstr "Mis à jour"
+
+#: inc/ajax.php:443 inc/ajax.php:537 inc/ajax.php:638 inc/ajax.php:744
+#: inc/ajax.php:792 inc/ajax.php:868
+#, php-format
+msgid "Your article has been %s successfully!"
+msgstr "Votre article a été %s avec succès !"
+
+#: inc/ajax.php:444 inc/ajax.php:538 inc/ajax.php:639 inc/ajax.php:745
+#: inc/ajax.php:793 inc/ajax.php:869
+msgid "Continue Editing"
+msgstr "Continuer l'édition"
+
+#: inc/ajax.php:909
+msgid "Wrong username or password."
+msgstr "Nom d'utilisateur ou mot de passe incorrect."
+
+#: inc/ajax.php:911
+msgid "Login successful, redirecting..."
+msgstr "Inscription effectuée avec succès. Redirection en cour..."
+
+#: inc/ajax.php:915
+msgid "Invalid login details"
+msgstr "Informations de connexion invalide"
+
+#: inc/ajax.php:920
+msgid "Invalid security login details"
+msgstr "Informations de connexion invalide"
+
+#: inc/classes/class-tgm-plugin-activation.php:334 inc/plugin_ext.php:66
+msgid "Install Required Plugins"
+msgstr "Installer les Plugins Requis"
+
+#: inc/classes/class-tgm-plugin-activation.php:335 inc/plugin_ext.php:67
+msgid "Install Plugins"
+msgstr "Installer Plugins"
+
+#: inc/classes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:367 inc/plugin_ext.php:69
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:393
+#: inc/classes/class-tgm-plugin-activation.php:920
+#: inc/classes/class-tgm-plugin-activation.php:2626
+#: inc/classes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#: inc/classes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+#: inc/classes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1027
+#: inc/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1214
+#: inc/classes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3602
+#: inc/classes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3602
+#: inc/classes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:59
+msgid "Accept PayPal Payments Settings"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:69
+msgid "PayPal Settings"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:78
+msgid "Payment Page ID"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:81 inc/mab_app_admin_menu.php:88
+msgid "You can find this by editing the page and looking in the url bar"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:85
+msgid "App Builder Page"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:102
+msgid "<option value=\"USD\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:102
+msgid ">US Dollar</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:103
+msgid "<option value=\"GBP\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:103
+msgid ">Pound Sterling</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:104
+msgid "<option value=\"EUR\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:104
+msgid ">Euro</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:105
+msgid "<option value=\"AUD\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:105
+msgid ">Australian Dollar</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:106
+msgid "<option value=\"CAD\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:106
+msgid ">Canadian Dollar</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:107
+msgid "<option value=\"NZD\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:107
+msgid ">New Zealand Dollar</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:108
+msgid "<option value=\"HKD\""
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:108
+msgid ">Hong Kong Dollar</option>"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:121
+msgid "Package #1"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:130
+msgid "Package #2"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:139
+msgid "Package #3"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:148
+msgid "Package #4"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:157
+msgid "Setup fee"
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:170
+msgid "For example Bronze $12/mo, Silver $29/mo, Gold $39/mo + $199 setup fee."
+msgstr ""
+
+#: inc/mab_app_admin_menu.php:206
+msgid "Update options"
+msgstr ""
+
+#: inc/new_app.php:44 inc/new_app.php:82
+msgid "Error the app could not be built"
+msgstr ""
+
+#: inc/options-panel.php:10
+msgid "Mobile app builder Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+#: inc/options-panel.php:11
+msgid "Mobile app builder"
+msgstr ""
+
+#: inc/options-panel.php:20 inc/options-panel.php:21
+msgid "Settings"
+msgstr ""
+
+#: inc/options-panel.php:27 inc/options-panel.php:28
+msgid "Go Pro"
+msgstr ""
+
+#: inc/options-panel.php:85
+msgid "Mobile App Builder Setup"
+msgstr ""
+
+#: inc/options-panel.php:100
+msgid "Welcome to M.A.B - Mobile App Builder"
+msgstr ""
+
+#: inc/options-panel.php:111
+msgid "Click below to install your MOBILE APP BUILDER"
+msgstr ""
+
+#: inc/options-panel.php:114
+msgid ""
+"Welcome to M.A.B, Start building mobile apps for your clients or let them do "
+"it on your websites frontend"
+msgstr ""
+
+#: inc/options-panel.php:117
+msgid "Fast & Reliable"
+msgstr ""
+
+#: inc/options-panel.php:117
+msgid "Build your mobile app within minutes. It's as easy as 1-2-3"
+msgstr ""
+
+#: inc/options-panel.php:118
+msgid "No programming skills."
+msgstr ""
+
+#: inc/options-panel.php:118
+msgid ""
+"No programming skills needed. You don’t need to be a computer wiz-kid to use "
+"M.A.B"
+msgstr ""
+
+#: inc/options-panel.php:119
+msgid "Our Community"
+msgstr ""
+
+#: inc/options-panel.php:119
+msgid ""
+"We started as a bunch of geeks and now we have an amazing app-developers.biz "
+"community."
+msgstr ""
+
+#: inc/options-panel.php:157
+msgid "Quick Links"
+msgstr ""
+
+#: inc/options-panel.php:163
+msgid "website"
+msgstr ""
+
+#: inc/options-panel.php:164
+msgid "Mobile Marketing Community"
+msgstr ""
+
+#: inc/options-panel.php:165
+msgid "About App Developers"
+msgstr ""
+
+#: inc/options-panel.php:166
+msgid "Changelog"
+msgstr ""
+
+#: inc/options-panel.php:180
+msgid "Latest News"
+msgstr ""
+
+#: inc/options-panel.php:249
+msgid "Title Word Count"
+msgstr ""
+
+#: inc/options-panel.php:250
+msgid "Required word count for article title"
+msgstr ""
+
+#: inc/options-panel.php:254 inc/options-panel.php:268
+#: inc/options-panel.php:282 inc/options-panel.php:296
+msgid "Minimum"
+msgstr ""
+
+#: inc/options-panel.php:255 inc/options-panel.php:269
+#: inc/options-panel.php:283 inc/options-panel.php:297
+msgid "Maximum"
+msgstr ""
+
+#: inc/options-panel.php:263
+msgid "Content Word Count"
+msgstr ""
+
+#: inc/options-panel.php:264
+msgid "Required word count for article content"
+msgstr ""
+
+#: inc/options-panel.php:277
+msgid "Bio Word Count"
+msgstr ""
+
+#: inc/options-panel.php:278
+msgid "Required word count for author bio"
+msgstr ""
+
+#: inc/options-panel.php:291
+msgid "Tag Count"
+msgstr ""
+
+#: inc/options-panel.php:292
+msgid "Required number of tags"
+msgstr ""
+
+#: inc/options-panel.php:305
+msgid "Maximum Links in Body"
+msgstr ""
+
+#: inc/options-panel.php:315
+msgid "Maximum links in bio"
+msgstr ""
+
+#: inc/options-panel.php:325
+msgid "Make featured image required"
+msgstr ""
+
+#: inc/options-panel.php:333
+msgid "No one"
+msgstr ""
+
+#: inc/options-panel.php:334
+msgid "Administrator"
+msgstr ""
+
+#: inc/options-panel.php:335
+msgid "Editor"
+msgstr ""
+
+#: inc/options-panel.php:336
+msgid "Author"
+msgstr ""
+
+#: inc/options-panel.php:337
+msgid "Contributor"
+msgstr ""
+
+#: inc/options-panel.php:338
+msgid "Subscriber"
+msgstr ""
+
+#: inc/options-panel.php:343
+msgid "Disable checks for"
+msgstr ""
+
+#: inc/options-panel.php:344
+msgid ""
+"Submissions by users of this level and levels higher than this will not be "
+"checked"
+msgstr ""
+
+#: inc/options-panel.php:354
+msgid "Instantly publish posts by"
+msgstr ""
+
+#: inc/options-panel.php:355
+msgid ""
+"Submissions by users of this level and levels higher than this will be "
+"instantly published"
+msgstr ""
+
+#: inc/options-panel.php:364
+msgid "Everybody"
+msgstr ""
+
+#: inc/options-panel.php:368
+msgid "Display media buttons to"
+msgstr ""
+
+#: inc/options-panel.php:369
+msgid ""
+"Users of this level and levels higher than this will see the media buttons"
+msgstr ""
+
+#: inc/options-panel.php:380
+msgid "Display before bio"
+msgstr ""
+
+#: inc/options-panel.php:381
+msgid ""
+"The contents of this textarea will be placed before the author bio "
+"throughout the website (If author bios are visible)"
+msgstr ""
+
+#: inc/options-panel.php:391
+msgid "Disable Author Bio"
+msgstr ""
+
+#: inc/options-panel.php:392
+msgid ""
+"Check to disable and hide the author bio field on the submission form. "
+"Author bios will still be visible on the website"
+msgstr ""
+
+#: inc/options-panel.php:401
+msgid "Hide all Author Bios"
+msgstr ""
+
+#: inc/options-panel.php:402
+msgid "Check to hide author bios from the website"
+msgstr ""
+
+#: inc/options-panel.php:411
+msgid "Nofollow Body Links"
+msgstr ""
+
+#: inc/options-panel.php:412
+msgid "The nofollow attribute will be added to all links in article content"
+msgstr ""
+
+#: inc/options-panel.php:421
+msgid "Nofollow Bio Links"
+msgstr ""
+
+#: inc/options-panel.php:422
+msgid "The nofollow attribute will be added to all links in author bio"
+msgstr ""
+
+#: inc/options-panel.php:431
+msgid "Disable Redirection to Login Page"
+msgstr ""
+
+#: inc/options-panel.php:432
+msgid ""
+"Instead of being sent to the login page, users will be shown an error message"
+msgstr ""
+
+#: inc/options-panel.php:441
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/options-panel.php:442
+msgid ""
+"Number of posts to display at a time on the interface created with the help "
+"of [mab_article_list]"
+msgstr ""
+
+#: inc/options-panel.php:463
+msgid "Post Restrictions"
+msgstr ""
+
+#: inc/options-panel.php:464
+msgid "Role Settings"
+msgstr ""
+
+#: inc/options-panel.php:465
+msgid "Misc Settings"
+msgstr ""
+
+#: inc/options-panel.php:473
+msgid "Save Changes"
+msgstr ""
+
+#: inc/pages.php:89 inc/pages.php:90
+msgid "Apps"
+msgstr ""
+
+#: inc/pages.php:108
+msgid "Apps Pages"
+msgstr ""
+
+#: inc/pages.php:109
+msgid "Apps Page"
+msgstr ""
+
+#: inc/pages.php:127
+msgid "Apps Themes"
+msgstr ""
+
+#: inc/pages.php:128
+msgid "Apps Theme"
+msgstr ""
+
+#: inc/pages.php:146
+msgid "Apps plugins"
+msgstr ""
+
+#: inc/pages.php:147
+msgid "Apps Plugin"
+msgstr ""
+
+#: inc/pages.php:169 inc/pages.php:184 views/submission-form.php:163
+msgid "App Name"
+msgstr ""
+
+#: inc/pages.php:170 inc/pages.php:185
+msgid "Date"
+msgstr ""
+
+#: inc/pages.php:171
+msgid "Publish App"
+msgstr ""
+
+#: inc/pages.php:183
+msgid "Page Name"
+msgstr ""
+
+#: inc/pages.php:217 inc/pages.php:240 inc/pages.php:251 inc/pages.php:264
+msgid "Publish this app"
+msgstr ""
+
+#: inc/pages.php:382
+msgid "NavBar ? "
+msgstr ""
+
+#: inc/pages.php:397
+msgid "Top Bar ? "
+msgstr ""
+
+#: inc/pages.php:414
+msgid "Side Bar ? "
+msgstr ""
+
+#: inc/pages.php:430
+msgid "Cover Photo ? "
+msgstr ""
+
+#: inc/pages.php:456
+msgid "Install this as a default? "
+msgstr ""
+
+#: inc/paypal.php:76
+msgid "Creation of app"
+msgstr ""
+
+#: inc/paypal.php:131
+msgid "fee"
+msgstr ""
+
+#: inc/paypal.php:211
+msgid "Set the Plugin Settings from the Settings menu"
+msgstr ""
+
+#: inc/paypal.php:221
+msgid "Display WP Paypal Payment."
+msgstr ""
+
+#: inc/paypal.php:222 inc/paypal.php:223
+msgid "WP Paypal Payment"
+msgstr ""
+
+#: inc/plugin_ext.php:62
+msgid ""
+"<h3>Install Required Plugins for Mobile App Builder</h3>To use the mobile "
+"app builder and to give your users some awesome features you will need to "
+"install the following plugins."
+msgstr ""
+
+#: inc/plugin_ext.php:74
+#, php-format
+msgid "MOBILE APP BUILDER requires the following plugin: %1$s."
+msgid_plural "MOBILE APP BUILDER requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/popup-plugins.php:54
+msgid "Delete this item?"
+msgstr ""
+
+#: inc/popup-plugins.php:55
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: inc/preview.php:16
+msgid "Download Our App"
+msgstr ""
+
+#: inc/preview.php:42
+msgid "App simulator"
+msgstr ""
+
+#: inc/preview.php:82
+msgid "Download your app soon on"
+msgstr ""
+
+#: mobile-app-builder.php:121
+msgid "You have unsaved changes. Proceed anyway?"
+msgstr ""
+
+#: mobile-app-builder.php:122
+msgid "Are you sure?"
+msgstr ""
+
+#: mobile-app-builder.php:123
+msgid "Choose Image"
+msgstr ""
+
+#: mobile-app-builder.php:124
+msgid "You missed one or more required fields"
+msgstr ""
+
+#: mobile-app-builder.php:125
+msgid "Your submission has errors. Please try again!"
+msgstr ""
+
+#: mobile-app-builder.php:126
+msgid "The title is too short"
+msgstr ""
+
+#: mobile-app-builder.php:127
+msgid "The title is too long"
+msgstr ""
+
+#: mobile-app-builder.php:128
+msgid "The article is too short"
+msgstr ""
+
+#: mobile-app-builder.php:129
+msgid "The article is too long"
+msgstr ""
+
+#: mobile-app-builder.php:130
+msgid "The bio is too short"
+msgstr ""
+
+#: mobile-app-builder.php:131
+msgid "The bio is too long"
+msgstr ""
+
+#: mobile-app-builder.php:132
+msgid "There are too many links in the article body"
+msgstr ""
+
+#: mobile-app-builder.php:133
+msgid "There are too many links in the bio"
+msgstr ""
+
+#: mobile-app-builder.php:134
+msgid "You haven't added the required number of tags"
+msgstr ""
+
+#: mobile-app-builder.php:135
+msgid "There are too many tags"
+msgstr ""
+
+#: mobile-app-builder.php:136
+msgid "You need to choose a featured image"
+msgstr ""
+
+#: themes/mobileapp/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: themes/mobileapp/404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: themes/mobileapp/404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#: themes/mobileapp/404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: themes/mobileapp/functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: themes/mobileapp/functions.php:90
+msgid "Sidebar"
+msgstr ""
+
+#: themes/mobileapp/functions.php:92
+msgid "Add widgets here."
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:50
+#: themes/mobileapp/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: themes/mobileapp/inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: themes/mobileapp/search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: themes/mobileapp/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: themes/mobileapp/template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: themes/mobileapp/template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: themes/mobileapp/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: themes/mobileapp/template-parts/content.php:29
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: views/login.php:6 views/login.php:14
+msgid "Login"
+msgstr ""
+
+#: views/login.php:7 views/login.php:43 views/login.php:74
+msgid "Register"
+msgstr ""
+
+#: views/login.php:16 views/login.php:45
+msgid "Username"
+msgstr ""
+
+#: views/login.php:20 views/login.php:53
+msgid "Password"
+msgstr ""
+
+#: views/login.php:25
+msgid "Remember me"
+msgstr ""
+
+#: views/login.php:28
+msgid "Log in"
+msgstr ""
+
+#: views/login.php:49
+msgid "Email"
+msgstr ""
+
+#: views/login.php:57
+msgid "First Name"
+msgstr ""
+
+#: views/login.php:61
+msgid "Last Name"
+msgstr ""
+
+#: views/login.php:65
+msgid "Website"
+msgstr ""
+
+#: views/login.php:69
+msgid "Nickname"
+msgstr ""
+
+#: views/post-tabs.php:14
+msgid "Live"
+msgstr ""
+
+#: views/post-tabs.php:16
+msgid "Pending"
+msgstr ""
+
+#: views/post-tabs.php:19
+msgid "You have not created any apps yet. "
+msgstr ""
+
+#: views/post-tabs.php:20
+msgid "Click here to add your first app."
+msgstr ""
+
+#: views/post-tabs.php:22
+#, php-format
+msgid "%s app(s)."
+msgstr ""
+
+#: views/post-tabs.php:37
+msgid "View App"
+msgstr ""
+
+#: views/post-tabs.php:37
+msgid "Preview App"
+msgstr ""
+
+#: views/post-tabs.php:40
+msgid "Edit"
+msgstr ""
+
+#: views/post-tabs.php:45
+msgid "Delete"
+msgstr ""
+
+#: views/post-tabs.php:56
+msgid "Newer Posts"
+msgstr ""
+
+#: views/post-tabs.php:60
+msgid "Older Posts"
+msgstr ""
+
+#: views/submission-form.php:26
+msgid "You don't have permission to edit this post"
+msgstr ""
+
+#: views/submission-form.php:88
+msgid ""
+"This form needs JavaScript to function properly. Please turn on JavaScript "
+"and try again!"
+msgstr ""
+
+#: views/submission-form.php:101
+msgid "Your Facebook Page"
+msgstr ""
+
+#: views/submission-form.php:102
+msgid "Loading..."
+msgstr ""
+
+#: views/submission-form.php:117
+msgid "App Features"
+msgstr ""
+
+#: views/submission-form.php:118
+msgid "Style & Design"
+msgstr ""
+
+#: views/submission-form.php:119
+msgid "Structure"
+msgstr ""
+
+#: views/submission-form.php:138
+msgid "Add a new module"
+msgstr ""
+
+#: views/submission-form.php:151
+msgid "Tab title"
+msgstr ""
+
+#: views/submission-form.php:162
+msgid "App home configuration."
+msgstr ""
+
+#: views/submission-form.php:227
+msgid "Save homepage settings"
+msgstr ""
+
+#: views/submission-form.php:241
+msgid "App Style"
+msgstr ""
+
+#: views/submission-form.php:273
+msgid "App colors"
+msgstr ""
+
+#: views/submission-form.php:307
+msgid "Content"
+msgstr ""
+
+#: views/submission-form.php:329
+msgid "Choose App Icon Image"
+msgstr ""
+
+#: views/submission-form.php:336
+msgid "Choose Splash Screen Image"
+msgstr ""
+
+#: views/submission-form.php:343
+msgid "Choose Background Image"
+msgstr ""
+
+#: views/submission-form.php:354
+msgid "Submit"
+msgstr ""
+
+#: views/submission-form.php:363
+msgid "When you are finshed click below."
+msgstr ""
+
+#: views/submission-form.php:369
+msgid "Publish my app!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Mobile App Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://app-developers.biz"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dave Anthony"
+msgstr ""
